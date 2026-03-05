@@ -1,17 +1,17 @@
-# Strategy to Execution Framework
+```markdown
+# Strategy Execution System
 
 ![Version](https://img.shields.io/badge/version-v1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-orange)
 
 ---
 
 ## Overview
 
-This repository defines a framework for translating **enterprise strategy into executable initiatives**.
+This repository defines a system for translating enterprise strategy into executable initiatives.
 
-Organizations frequently struggle to connect strategic objectives with product delivery.
-
-This framework provides structured mechanisms for decomposing strategy into investment themes, initiatives, and execution oversight.
+It provides structured mechanisms for decomposing strategic objectives into themes, initiatives, and portfolio investments that can be governed and delivered across product and engineering organizations.
 
 ---
 
@@ -19,77 +19,59 @@ This framework provides structured mechanisms for decomposing strategy into inve
 
 ```mermaid
 flowchart LR
-
 A[Enterprise Strategy] --> B[Strategic Themes]
 B --> C[Strategic Initiatives]
 C --> D[Portfolio Investments]
 D --> E[Product Roadmaps]
 E --> F[Execution Outcomes]
-```
+MIT License
+'''
 
 ---
+Strategy Decomposition
+Layer	Purpose
+Strategic Objectives	Define enterprise outcomes and priorities
+Strategic Themes	Concentrate investment focus
+Strategic Initiatives	Translate themes into actionable initiatives
+Portfolio Investments	Fund initiatives through governance and allocation
+Planning and Review Cadence
+Annual Strategy Planning
 
-## Strategy Decomposition
+define objectives and themes
 
-Enterprise strategy is translated into several layers of execution.
+establish strategic investment posture
 
-| Layer | Purpose |
-|---|---|
-| Strategic Objectives | High-level organizational goals |
-| Strategic Themes | Focus areas for investment |
-| Strategic Initiatives | Concrete initiatives aligned to themes |
-| Portfolio Investments | Funded initiatives within the portfolio |
+Quarterly Portfolio Planning
 
----
+convert initiatives into prioritized investments
 
-## Strategic Planning Cadence
+align investments to available delivery capacity
 
-Strategy execution requires structured planning cycles.
+Monthly Execution Monitoring
 
-### Annual Strategy Planning
+review progress, risks, and dependencies
 
-Leadership defines strategic objectives and themes.
+adjust priorities based on outcomes and constraints
 
-### Portfolio Investment Planning
-
-Strategic initiatives are evaluated and funded.
-
-### Execution Monitoring
-
-Delivery progress and outcomes are reviewed.
-
----
-
-## Relationship to Product Operating System
-
-This framework connects directly to:
-
-```
-product-operating-system
-```
-
-Strategic initiatives become **product roadmap investments** executed by product teams.
-
----
-
-## Relationship to Portfolio Governance
+Relationship to Portfolio Governance System
 
 Portfolio governance mechanisms defined in:
+portfolio-governance-system
 
-```
-enterprise-product-operating-model
-```
+determine how strategic initiatives are evaluated, funded, risk-scored, and governed across the portfolio.
 
-determine how strategic initiatives are evaluated and funded.
+Relationship to Product Delivery System
 
----
+This system connects directly to:
+product-delivery-system
 
-## Versioning
+Funded portfolio investments become product roadmaps executed by product and engineering teams.
 
-**v1.0 — Strategy to Execution Framework**
+Versioning
 
----
+Current release:
+v1.0 — Strategy Execution System
 
-## License
+License
 
 MIT License
