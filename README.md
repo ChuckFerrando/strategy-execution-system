@@ -66,6 +66,7 @@ Governance outputs typically include:
 /governance
 /artifacts
 /visualizations
+```
 
 ---
 
