@@ -1,77 +1,113 @@
-```markdown
 # Strategy Execution System
 
-![Version](https://img.shields.io/badge/version-v1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-active-orange)
+Executive operating system for translating enterprise strategy into prioritized initiatives and portfolio-ready investments.
 
 ---
 
-## Overview
-
-This repository defines a system for translating enterprise strategy into executable initiatives.
-
-It provides structured mechanisms for decomposing strategic objectives into themes, initiatives, and portfolio investments that can be governed and delivered across product and engineering organizations.
-
----
-
-## Strategy Execution Architecture
+## Role in the Product Leadership Systems Architecture
 
 ```mermaid
-flowchart LR
+flowchart TB
+
 A[Enterprise Strategy] --> B[Strategic Themes]
 B --> C[Strategic Initiatives]
-C --> D[Portfolio Investments]
-D --> E[Product Roadmaps]
-E --> F[Execution Outcomes]
-MIT License
-'''
+C --> D[Portfolio Candidate Investments]
+
+D --> E[Portfolio Governance System]
+E --> F[Product Delivery System]
+F --> G[Customer Outcomes]
+```
+---
+
+## Operating Model
+
+This system defines how strategy becomes execution through:
+
+- objective → theme decomposition
+- initiative definition and sizing
+- investment framing for governance review
+- planning cadence and refresh cycles
+- traceability from strategy to funded initiatives and delivered outcomes
 
 ---
-Strategy Decomposition
-Layer	Purpose
-Strategic Objectives	Define enterprise outcomes and priorities
-Strategic Themes	Concentrate investment focus
-Strategic Initiatives	Translate themes into actionable initiatives
-Portfolio Investments	Fund initiatives through governance and allocation
-Planning and Review Cadence
-Annual Strategy Planning
 
-define objectives and themes
+## Core Components
 
-establish strategic investment posture
+- Strategy decomposition model (objective → theme → initiative)
+- Initiative definition template (scope, value, success measures, dependencies)
+- Prioritization inputs (value, urgency, feasibility, dependencies)
+- Planning cadence model (annual / quarterly / monthly)
+- Strategy-to-portfolio traceability model (initiative → investment → outcome linkage)
 
-Quarterly Portfolio Planning
+---
 
-convert initiatives into prioritized investments
+## Governance Model
 
-align investments to available delivery capacity
+Common governance touchpoints:
 
-Monthly Execution Monitoring
+- Annual strategy refresh and theme definition
+- Quarterly initiative review and portfolio candidate pipeline shaping
+- Monthly executive check-ins (progress, tradeoffs, rebalancing signals)
 
-review progress, risks, and dependencies
+Governance outputs typically include:
 
-adjust priorities based on outcomes and constraints
+- updated strategic themes and guardrails
+- a prioritized investment candidate list for portfolio review
+- documented tradeoffs and sequencing decisions
 
-Relationship to Portfolio Governance System
+---
 
-Portfolio governance mechanisms defined in:
-portfolio-governance-system
+## Repository Structure
 
-determine how strategic initiatives are evaluated, funded, risk-scored, and governed across the portfolio.
+```text
+/architecture
+/frameworks
+/templates
+/governance
+/artifacts
+/visualizations
 
-Relationship to Product Delivery System
+---
 
-This system connects directly to:
-product-delivery-system
+## Related Systems
 
-Funded portfolio investments become product roadmaps executed by product and engineering teams.
+The Product Leadership Systems Architecture is composed of four operating systems that together enable modern product organizations to translate strategy into measurable outcomes.
 
-Versioning
+| System | Purpose | Repository |
+|------|------|------|
+| Strategy Execution System | Translates enterprise strategy into initiatives and portfolio-ready investments | https://github.com/ChuckFerrando/strategy-execution-system |
+| Portfolio Governance System (Flagship) | Governs prioritization, capital allocation, delivery risk evaluation, and portfolio visibility | https://github.com/ChuckFerrando/portfolio-governance-system |
+| Product Delivery System | Operating model for executing funded initiatives with predictable delivery outcomes | https://github.com/ChuckFerrando/product-delivery-system |
+| Decision Intelligence System | AI-assisted analysis supporting portfolio governance and delivery decisions | https://github.com/ChuckFerrando/decision-intelligence-system |
 
-Current release:
-v1.0 — Strategy Execution System
+These systems together form the **Product Leadership Systems Architecture**:
 
-License
+Strategy Execution  
+↓  
+Portfolio Governance  
+↓  
+Product Delivery  
+↓  
+Customer Outcomes  
+
+Decision Intelligence supports governance and delivery through AI-assisted analysis.
+
+---
+
+## License
 
 MIT License
+
+Copyright (c) 2026 Chuck Ferrando
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this documentation and associated files to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies, subject to the
+following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the documentation.
+
+THE DOCUMENTATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
