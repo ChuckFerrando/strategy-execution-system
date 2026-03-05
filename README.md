@@ -59,7 +59,7 @@ Governance outputs typically include:
 
 ## Repository Structure
 
-```text
+```
 /architecture
 /frameworks
 /templates
