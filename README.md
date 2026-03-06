@@ -32,8 +32,6 @@ This system defines how enterprise strategy becomes prioritized initiatives and 
 
 ## Operating Model
 
-## Operating Model
-
 The Strategy Execution System converts enterprise strategy into prioritized initiatives that become **portfolio candidate investments**.
 
 ```mermaid
