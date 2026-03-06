@@ -9,17 +9,36 @@ Executive operating system for translating enterprise strategy into prioritized 
 ```mermaid
 flowchart TB
 
-A[Enterprise Strategy] --> B[Strategic Themes]
-B --> C[Strategic Initiatives]
-C --> D[Portfolio Candidate Investments]
+A[Strategy Execution System]
+B[Portfolio Governance System]
+C[Product Delivery System]
+D[Customer Outcomes]
+E[Decision Intelligence System]
 
-D --> E[Portfolio Governance System]
-E --> F[Product Delivery System]
-F --> G[Customer Outcomes]
+A --> B
+B --> C
+C --> D
+
+E --> B
+E --> C
 ```
+
 ---
 
 ## Operating Model
+
+```mermaid
+flowchart LR
+
+A[Enterprise Strategy]
+B[Strategic Themes]
+C[Strategic Initiatives]
+D[Portfolio Candidate Investments]
+
+A --> B
+B --> C
+C --> D
+```
 
 This system defines how strategy becomes execution through:
 
