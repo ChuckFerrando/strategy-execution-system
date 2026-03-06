@@ -61,8 +61,6 @@ Key mechanisms typically include:
 
 ## Core Components
 
-## Core Components
-
 The Strategy Execution System includes several core artifacts that translate strategy into portfolio-ready initiatives.
 
 Key components include:
@@ -125,11 +123,11 @@ strategy-execution-system
 
 Directory intent:
 
-- **architecture** — system diagrams and architectural decisions (ADRs)  
-- **frameworks** — strategy deployment and decomposition frameworks  
-- **templates** — initiative definitions and strategic planning templates  
-- **governance** — governance cadences, decision structures, and review processes  
-- **artifacts** — example outputs such as strategic themes or initiative pipelines  
+- **architecture** — system diagrams and architectural decisions (ADRs)
+- **frameworks** — strategy deployment and decomposition frameworks
+- **templates** — initiative definitions and strategic planning templates
+- **governance** — governance cadences, decision structures, and review processes
+- **artifacts** — example outputs such as strategic themes or initiative pipelines
 - **visualizations** — strategy maps and alignment diagrams
 
 ---
@@ -144,8 +142,6 @@ The Strategy Execution System operates as part of the broader **Product Leadersh
 | Product Delivery System | Operating model for executing funded initiatives with predictable delivery outcomes | https://github.com/ChuckFerrando/product-delivery-system |
 | Decision Intelligence System | AI-assisted analysis supporting portfolio governance and delivery decisions | https://github.com/ChuckFerrando/decision-intelligence-system |
 | Architecture Portal | Documentation index for the Product Leadership Systems Architecture | https://github.com/ChuckFerrando/product-leadership-systems |
-
-Together these systems form the **Product Leadership Systems Architecture**, connecting strategy, governance, delivery, and decision intelligence.
 
 ---
 
